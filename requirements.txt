@@ -1,0 +1,9 @@
+fastapi>=0.162
+uvicorn[standard]>=0.54
+groq>=1.7
+anthropic>=2.5
+segno>=1.6
+python-multipart>=0.0.33
+python-dotenv>=1.0
+pytest>=9.0
+httpx>=0.28

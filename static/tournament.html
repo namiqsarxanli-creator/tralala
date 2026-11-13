@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="az">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tralala · Turnir</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23F4483C'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' fill='white'%3E♪%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="stage-top">
+      <span class="logo">tra<i>la</i>la</span>
+      <span id="title"></span>
+      <span class="right">
+        <button class="btn ghost small" id="scores" hidden>Xallar</button>
+        <button class="btn ghost small" id="sound">Səs: açıq</button>
+        <button class="btn ghost small" id="finish">Panelə qayıt</button>
+      </span>
+    </div>
+    <div class="duel" id="duel" hidden></div>
+    <div class="stage-body" id="body"></div>
+  </div>
+  <script>window.TOURNAMENT = true;</script>
+  <script src="/static/common.js"></script>
+  <script src="/static/stage.js"></script>
+  <script src="/static/tournament.js"></script>
+</body>
+</html>

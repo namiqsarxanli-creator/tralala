@@ -1,0 +1,65 @@
+{
+  "title": "Sınaq oyunu",
+  "description": "Hər sual tipini yoxlamaq üçün",
+  "questions": [
+    {
+      "type": "choice",
+      "text": "Azərbaycanın paytaxtı hansı şəhərdir?",
+      "time": 20,
+      "options": ["Gəncə", "Bakı", "Şəki", "Lənkəran"],
+      "correct": [1],
+      "explanation": "Bakı 1920-ci ildən Azərbaycanın paytaxtıdır."
+    },
+    {
+      "type": "truefalse",
+      "text": "Xəzər dünyanın ən böyük qapalı su hövzəsidir.",
+      "time": 15,
+      "correct": [0],
+      "explanation": "Xəzərin sahəsi təxminən 371 min km²-dir, heç bir qapalı su hövzəsi bu qədər böyük deyil."
+    },
+    {
+      "type": "multi",
+      "text": "Bunlardan hansılar proqramlaşdırma dilidir?",
+      "time": 20,
+      "options": ["Python", "Rust", "Photoshop", "Go"],
+      "correct": [0, 1, 3],
+      "explanation": "Photoshop şəkil redaktorudur, qalanları proqramlaşdırma dilidir."
+    },
+    {
+      "type": "text",
+      "text": "“Odlar yurdu” adlanan ölkə hansıdır?",
+      "time": 20,
+      "accepted": ["Azərbaycan"],
+      "explanation": "Yer altından çıxan təbii qaza görə yanan torpaqlar (məs. Yanardağ) bu adı verib."
+    },
+    {
+      "type": "slider",
+      "text": "Bir ildə neçə həftə var?",
+      "time": 20,
+      "min": 40,
+      "max": 60,
+      "step": 1,
+      "answer": 52,
+      "tolerance": 0,
+      "explanation": "365 gün 7-yə bölünəndə 52 həftə və 1 gün alınır."
+    },
+    {
+      "type": "order",
+      "text": "Planetləri Günəşə yaxınlığına görə düz.",
+      "time": 25,
+      "options": ["Merkuri", "Venera", "Yer", "Mars"],
+      "explanation": "Günəşdən uzaqlaşdıqca sıra belədir: Merkuri, Venera, Yer, Mars."
+    },
+    {
+      "type": "poll",
+      "text": "Səhər çay, yoxsa qəhvə?",
+      "time": 15,
+      "options": ["Çay", "Qəhvə", "Hər ikisi"]
+    },
+    {
+      "type": "cloud",
+      "text": "Ofisimizi bir sözlə təsvir et.",
+      "time": 20
+    }
+  ]
+}
